@@ -78,6 +78,14 @@ h1 {
     flex-wrap: wrap;
 }
 
+#riquadro-risposte span{
+    
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    border: 3px solid black;
+}
+
 .red {
     color: rgb(0, 0, 0);
     background-color: red;
@@ -133,4 +141,12 @@ h1 {
 
 .none {
     display: none;
+}
+
+#risultati-ciclo {
+    position: absolute;
+    width: 270px;
+    /* border: 2px red solid; */
+    top: 5px;
+    left: 5px;
 }
